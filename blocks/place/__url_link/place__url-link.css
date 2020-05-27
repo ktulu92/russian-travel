@@ -1,0 +1,5 @@
+.place__url-link{
+  text-decoration-line: underline;
+  cursor: pointer;
+  color: #FFFFFF; 
+}

@@ -1,0 +1,25 @@
+.header__lang-cell{
+  margin-right: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  text-align: right;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+    
+.header__lang-cell:nth-child(2){
+  margin-right: 0;
+}
+
+
+@media (max-width: 320px){
+.header__lang-cell{
+  font-size: 18px;
+  line-height: 24px;
+}
+}
+    
