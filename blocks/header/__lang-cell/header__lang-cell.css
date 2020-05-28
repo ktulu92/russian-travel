@@ -1,3 +1,5 @@
+
+
 .header__lang-cell{
   margin-right: 18px;
   font-family: Inter;
@@ -7,8 +9,13 @@
   line-height: 28px;
   /* identical to box height, or 117% */
   text-align: right;
-  text-decoration-line: underline;
+  text-decoration-line: none;
   color: #FFFFFF;
+}
+
+.header__lang-cell:hover{
+  opacity: 0.8;
+  cursor: pointer;
 }
     
 .header__lang-cell:nth-child(2){
@@ -22,4 +29,7 @@
   line-height: 24px;
 }
 }
-    
+
+
+
+

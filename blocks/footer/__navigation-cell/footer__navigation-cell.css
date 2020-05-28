@@ -1,18 +1,18 @@
 .footer__navigation-cell{
-  list-style: none;
-  margin-right: 18px;
+  margin-right:18px; 
+  text-decoration: none;
+  list-style: none;     
 }
-
-.footer__navigation-cell:nth-child(5){
-  margin-right: 0;
-  
-}
-
-
-@media (max-width:320px){
+ 
+@media (max-width: 320px){
 .footer__navigation-cell{
-margin: 0;
+  margin-bottom: 32px;
 }
 }
 
-}
+@media (min-width: 321px) and (max-width:565px ){
+.footer__navigation-cell{
+    margin-bottom: 32px;
+  }
+  }
+  

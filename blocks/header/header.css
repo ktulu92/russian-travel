@@ -1,6 +1,8 @@
 @import url(./__lang-cell/header__lang-cell.css);
 @import url(./__lang-zone/header__lang-zone.css);
 @import url(./__logo/header__logo.css);
+@import url(../header/__lang-cell/_chosen/header__lang-cell_chosen.css);
+
 
 
 .header{
