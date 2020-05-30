@@ -1,7 +1,6 @@
 .lead__image-subtitle{
   margin-top: 8px;
   margin-bottom: 0;
-  
   font-family: Inter,sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -14,16 +13,16 @@
 }
 
 
-  @media (max-width: 768px){
-  .lead__image-subtitle {
-    padding-left: 24px;
-  }
-  }
+@media (max-width: 768px){
+.lead__image-subtitle {
+  padding-left: 24px;
+}
+}
   
 
-  @media (max-width: 320px){
-    .lead__image-subtitle {
-      padding-left: 16px;
-    }
-    }
+@media (max-width: 320px){
+.lead__image-subtitle {
+  padding-left: 16px;
+}
+}
     

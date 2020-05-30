@@ -14,12 +14,34 @@
   background-repeat: no-repeat;
   background-position: center;
   margin:  0 48px;
-  min-height: 740px;
+  max-height: 740px;
   max-width: 1184px;
   width: 100%;
- 
   z-index: 1;
+  height: 62.5vw;
 }
+
+
+
+@media(max-width:1024px){
+  .cover__overlay{
+    height: 62,5vw;
+
+  }
+}
+
+
+
+@media(max-width:768px){
+  .cover__overlay{
+    height: 62,5vw;
+
+  }
+}
+
+
+
+
 
 .cover__overlay:after{
   content: "";
@@ -36,3 +58,8 @@
   background-color: rgba(42, 44, 47, 0.8);
   z-index: 1;
 }
+
+
+
+  
+/*
