@@ -9,7 +9,7 @@
 
 .footer__navigation-link{
   opacity: 0.8;
-  cursor: pointer;
+  cursor: poInter, sans-serif;
 }
 
 @media (max-width: 320px){

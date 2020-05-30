@@ -2,7 +2,7 @@
 
 .header__lang-cell{
   margin-right: 18px;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -15,7 +15,7 @@
 
 .header__lang-cell:hover{
   opacity: 0.8;
-  cursor: pointer;
+  cursor: poInter, sans-serif;
 }
     
 .header__lang-cell:nth-child(2){
