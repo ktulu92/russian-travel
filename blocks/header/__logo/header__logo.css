@@ -7,9 +7,9 @@
 }
 
 @media (max-width: 320px) {
-  .header__logo {
-    max-width: 142px;
-    max-height: auto;
-  }
+.header__logo {
+  max-width: 142px;
+  max-height: auto;
+}
 }
 

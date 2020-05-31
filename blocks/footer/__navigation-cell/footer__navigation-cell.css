@@ -4,13 +4,8 @@
   list-style: none;     
 }
  
-@media (max-width: 320px){
-.footer__navigation-cell{
-  margin-bottom: 32px;
-}
-}
 
-@media (min-width: 321px) and (max-width:565px ){
+@media (min-width: 320px) and (max-width:565px ){
 .footer__navigation-cell{
   margin-bottom: 32px;
 }

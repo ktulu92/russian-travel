@@ -2,26 +2,22 @@
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__image/lead__image.css);
 @import url(./__image-subtitle/lead__image-subtitle.css);
+@import url(./__image-container/lead__image-container.css);
 
 .lead{
-  margin: 0 auto;
+  margin: 0 148px;
   max-width:984px;
 }
 
 @media (max-width: 1024px){
 .lead{
-  padding: 0 48px 0;
+ margin: 0 48px;
 }
 }
 
 @media (max-width: 768px){
 .lead{
-  padding: 0;
+  margin: 0;
 }
 }
 
-@media (max-width: 320px){
-.lead{
-  padding: 0;
-}
-}

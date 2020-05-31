@@ -6,24 +6,16 @@
   line-height: 18px;
 }
 
-
-.footer__navigation-link{
+.footer__navigation-link:hover{
   opacity: 0.8;
   cursor: poInter, sans-serif;
+  transition: opacity 0.2s;
 }
 
-@media (max-width: 320px){
-.footer__navigation-link{
+@media (min-width:320px) and (max-width:525px){
+  .footer__navigation-link{
   font-size: 24px;
   line-height: 24px;
   color: #FFFFFF;
 }
 }
-
-
-@media (min-width:321px) and (max-width:525px){
-  .footer__navigation-link{
-    font-size: 24px;
-    line-height: 24px;
-    color: #FFFFFF;
-  }

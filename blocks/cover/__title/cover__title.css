@@ -10,6 +10,16 @@
   color: #FFFFFF;
 }
  
+
+@media (max-width:768px) {
+  .cover__title {
+    font-size: calc(11vw);
+    line-height:calc(0.94*11vw) ;
+    max-width: 80%;   
+    margin-bottom: 32px;
+  }
+  }
+
 @media (max-width: 720px) {
 .cover__title {
   font-size: calc(11vw);
@@ -24,5 +34,6 @@
   max-height: 70px;
   font-size: 32px;
   line-height: 35px;
+  margin-bottom: 16px;
  }
  }

@@ -1,10 +1,11 @@
 .intro__title{
   max-width: 690px;
-  font-family: Inter,sans-serif;
+  font-family: 'Inter','Arial',sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
+  margin-top: 92px;
   margin-bottom: 40px;
 }
 
@@ -13,7 +14,6 @@
   margin-top: 0;
   max-width: 720px;
 }
-
 }
 
 

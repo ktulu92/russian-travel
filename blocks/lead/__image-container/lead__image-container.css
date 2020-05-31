@@ -1,0 +1,10 @@
+.lead__image-container{
+  margin: 0;
+}
+
+
+@media (max-width:768px){
+.lead__image-container{
+  margin: 0;
+}
+}
