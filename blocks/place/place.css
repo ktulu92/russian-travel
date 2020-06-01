@@ -41,21 +41,19 @@
 @media (min-width: 321px) and (max-width: 720px){
 .place{
   grid-template-columns: 1fr; 
-  column-gap: 28px;
   padding-top: 74px;
 }
 }
 
 
 @media (max-width: 320px){
-  .place{
-    
-    grid-template-columns: minmax(269px, 1fr);
-    row-gap: 32px;
-    padding-top: 45px;
-  }
+  .place{ 
+  grid-template-columns: minmax(269px, 1fr);
+  row-gap: 32px;
+  padding-top: 45px;
+}
 
-  .place:first-of-type {
-    padding-top: 64px;
-  }
+.place:first-of-type {
+  padding-top: 64px;
+}
 }

@@ -19,14 +19,6 @@
     margin-bottom: 32px;
   }
   }
-
-@media (max-width: 720px) {
-.cover__title {
-  font-size: calc(11vw);
-  line-height:calc(0.94*11vw) ;
-  max-width: 80%;   
-}
-}
     
 @media (max-width: 320px) {
 .cover__title{

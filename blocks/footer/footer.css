@@ -26,24 +26,15 @@ align-items: center;
 }
 }
 
-@media (max-width:512px){
+@media (max-width:675px){
   .footer{
     flex-direction: column;
     align-items: flex-start;
-    padding: 62px 16px 24px;
-   
+    padding: 62px 16px 48px;
+  
   }
   }
-    
 
-@media (max-width:675px){
-.footer{
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 62px 16px 48px;
-
-}
-}
 
 @media (max-width:320px){
 .footer{
