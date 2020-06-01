@@ -1,0 +1,33 @@
+.header__lang-link{
+  margin-right: 18px;
+  font-family: 'Inter','Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  text-align: right;
+  text-decoration-line: none;
+  color: #FFFFFF;
+}
+
+.header__lang-cell:hover{
+  opacity: 0.8;
+  cursor: poInter, sans-serif;
+  transition: opacity 0.2s;
+}
+    
+.header__lang-cell:nth-child(2){
+  margin-right: -16px;
+}
+
+
+@media (max-width: 320px){
+.header__lang-cell{
+  font-size: 18px;
+  line-height: 24px;
+}
+}
+
+
+
