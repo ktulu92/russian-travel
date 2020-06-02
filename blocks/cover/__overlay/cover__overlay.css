@@ -35,6 +35,5 @@
 
 .cover__overlay:hover:after {
   background-color: rgba(42, 44, 47, 0.8);
-  z-index: 1;
   transition: background-color 0.5s;
 }
